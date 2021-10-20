@@ -21,3 +21,9 @@ function increaseWidth() {
 }
 
 itemOne.addEventListener('mouseover', increaseWidth)
+
+function changeBackground() {
+  itemTwo.style.backgroundColor = 'orange'
+}
+
+itemTwo.addEventListener('mouseup', changeBackground)
